@@ -1,0 +1,26 @@
+{
+  "surface_builder": "arkane:crystal_clouds",
+  "depth": 0.125,
+  "scale": 0.05,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "precipitation": "rain",
+  "category": "plains",
+  "effects": {
+    "sky_color": 11462393,
+    "fog_color": 11526895,
+    "water_color": 4173284,
+    "water_fog_color": 6250446,
+    "grass_color": 9482120,
+    "foliage_color": 8503703,
+    "grass_color_modifier": "none"
+  },
+  "starts": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [],
+  "temperature_modifier": "none",
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 0.4
+}

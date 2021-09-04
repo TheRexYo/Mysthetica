@@ -1,0 +1,67 @@
+{
+  "surface_builder": "arkane:under_obsidian",
+  "depth": 0.125,
+  "scale": 0.15,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "none",
+  "category": "plains",
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 13799259,
+    "fog_color": 16765357,
+    "water_color": 8809286,
+    "water_fog_color": 7956000,
+    "grass_color": 9969439,
+    "foliage_color": 4461331,
+    "ambient_sound": "minecraft:ambient.fire_realm.loop",
+    "particle": {
+      "options": {
+        "type": "minecraft:block"
+      },
+      "probability": 0.25
+    }
+  },
+  "starts": [
+    "arkane:magi_village/base"
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:blaze": {
+      "energy_budget": 0.12,
+      "charge": 1
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:ore_magma"
+    ],
+    [
+      "arkane:obsidian_forest_vegetation"
+    ],
+    []
+  ]
+}

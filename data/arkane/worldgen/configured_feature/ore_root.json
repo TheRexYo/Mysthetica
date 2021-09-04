@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:growing_plant",
+  "config": {
+    "direction": "down",
+    "allow_water": false,
+    "height_distribution": [
+      {
+        "weight": 25,
+        "data": {
+          "type": "minecraft:biased_to_bottom",
+          "value": {
+            "min_inclusive": 2,
+            "max_inclusive": 16
+          }
+        }
+      },
+      {
+        "weight": 40,
+        "data": {
+          "type": "minecraft:uniform",
+          "value": {
+            "min_inclusive": 3,
+            "max_inclusive": 12
+          }
+        }
+      }
+    ],
+    "body_provider": {
+      "type": "minecraft:simple_state_provider",
+      "state": {
+        "Name": "minecraft:copper_block"
+      }
+    },
+    "head_provider": {
+      "type": "minecraft:weighted_state_provider",
+      "entries": [
+        {
+          "weight": 5,
+          "data": {
+            "Name": "minecraft:netherite_block"
+          }
+        },
+        {
+          "weight": 10,
+          "data": {
+            "Name": "minecraft:diamond_block"
+          }
+        },
+        {
+          "weight": 25,
+          "data": {
+            "Name": "minecraft:gold_block"
+          }
+        },
+        {
+          "weight": 50,
+          "data": {
+            "Name": "minecraft:iron_block"
+          }
+        },
+        {
+          "weight": 100,
+          "data": {
+            "Name": "minecraft:redstone_block"
+          }
+        }
+      ]
+    }
+  }
+}

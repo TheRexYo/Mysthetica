@@ -1,0 +1,73 @@
+{
+  "surface_builder": "arkane:cinder",
+  "depth": 0,
+  "scale": 0.025,
+  "temperature": 0.8,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "beach",
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 0.25,
+  "effects": {
+    "sky_color": 15368238,
+    "fog_color": 11490834,
+    "water_color": 8809286,
+    "water_fog_color": 7956000,
+    "grass_color": 12460835,
+    "foliage_color": 9182493,
+    "ambient_sound": "minecraft:ambient.fire_realm.loop",
+    "music": {
+      "sound": "minecraft:music.arkane.cinder_plains",
+      "min_delay": 0,
+      "max_delay": 200,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.1
+    }
+  },
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:blaze",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {
+    "minecraft:blaze": {
+      "energy_budget": 0.25,
+      "charge": 1
+    },
+    "minecraft:cow": {
+      "energy_budget": 0.12,
+      "charge": 2
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:ore_magma",
+      "minecraft:patch_fire",
+      "minecraft:spring_lava"
+    ]
+  ]
+}

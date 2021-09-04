@@ -1,0 +1,63 @@
+{
+  "surface_builder": "arkane:ash",
+  "depth": 0.125,
+  "scale": 0.05,
+  "temperature": 0.8,
+  "downfall": 0,
+  "precipitation": "none",
+  "category": "desert",
+  "player_spawn_friendly": false,
+  "creature_spawn_probability": 0.2,
+  "effects": {
+    "sky_color": 6770492,
+    "fog_color": 9726796,
+    "water_color": 9271646,
+    "water_fog_color": 7564372,
+    "grass_color": 11444111,
+    "foliage_color": 8617325,
+    "ambient_sound": "minecraft:ambient.fire_realm.loop",
+    "music": {
+      "sound": "minecraft:music.arkane.cinder_plains",
+      "min_delay": 0,
+      "max_delay": 200,
+      "replace_current_music": true
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.5
+    }
+  },
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:wither_skeleton",
+        "weight": 100,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:magma_cube",
+        "weight": 25,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:canyon",
+      "minecraft:cave"
+    ]
+  },
+  "features": [
+    [
+      "minecraft:ore_magma",
+      "minecraft:patch_fire",
+      "minecraft:spring_lava"
+    ]
+  ]
+}

@@ -1,0 +1,67 @@
+{
+	"surface_builder": "arkane:magma_sea",
+	"depth": -0.125,
+	"scale": 0.0,
+	"temperature": 2,
+	"downfall": 0,
+	"precipitation": "none",
+	"category": "ocean",
+	"player_spawn_friendly": false,
+	"creature_spawn_probability": 0.35,
+	"effects": {
+		"ambient_sound": "minecraft:ambient.fire_realm.loop",
+		"sky_color": 16753700,
+		"fog_color": 11963701,
+		"water_color": 8674069,
+		"water_fog_color": 11758903,
+		"grass_color": 6312510,
+		"foliage_color": 8026455,
+		"particle": {
+			"options": {
+				"type": "minecraft:dripping_lava"
+			},
+			"probability": 0.1
+		}
+	},
+	"starts": [],
+	"spawners": {
+		"creature": [
+			{
+				"type": "minecraft:strider",
+				"weight": 100,
+				"minCount": 1,
+				"maxCount": 3
+			},
+			{
+				"type": "minecraft:blaze",
+				"weight": 100,
+				"minCount": 1,
+				"maxCount": 1
+			}
+		],
+		"monster": [
+			{
+				"type": "minecraft:magma_cube",
+				"weight": 100,
+				"minCount": 1,
+				"maxCount": 3
+			}
+		]
+	},
+	"spawn_costs": {
+		"minecraft:magma_cube": {
+			"energy_budget": 0.5,
+			"charge": 1
+		},
+		"minecraft:blaze": {
+			"energy_budget": 0.25,
+			"charge": 1
+		},
+		"minecraft:cow": {
+			"energy_budget": 0.25,
+			"charge": 2
+		}
+	},
+	"carvers": {},
+	"features": []
+}

@@ -1,0 +1,62 @@
+{
+	"type": "arkane:realm_of_air",
+	"generator": {
+		"type": "minecraft:noise",
+		"seed": 1266970689,
+		"biome_source": {
+			"type": "minecraft:multi_noise",
+			"seed": 1266970689,
+			"altitude_noise": {
+				"firstOctave": -7,
+				"amplitudes": [
+					1,
+					1
+				]
+			},
+			"temperature_noise": {
+				"firstOctave": -7,
+				"amplitudes": [
+					1,
+					1
+				]
+			},
+			"humidity_noise": {
+				"firstOctave": -7,
+				"amplitudes": [
+					1,
+					1
+				]
+			},
+			"weirdness_noise": {
+				"firstOctave": -7,
+				"amplitudes": [
+					1,
+					1
+				]
+			},
+			"biomes": [
+				{
+					"biome": "arkane:vast_skies",
+					"parameters": {
+						"altitude": 0,
+						"temperature": 0,
+						"humidity": 0,
+						"weirdness": 0,
+						"offset": 0.6
+					}
+				},
+				{
+					"biome": "arkane:crystal_clouds",
+					"parameters": {
+						"altitude": 0,
+						"temperature": 0,
+						"humidity": 0,
+						"weirdness": 0.5,
+						"offset": 0.5
+					}
+				}
+			]
+		},
+		"settings": "arkane:realm_of_air"
+	}
+}

@@ -1,0 +1,103 @@
+{
+	"type": "arkane:elemental_chaos",
+	"generator": {
+		"type": "minecraft:noise",
+		"seed": 1495699635,
+		"biome_source": {
+			"type": "minecraft:multi_noise",
+			"seed": 1495699635,
+			"min_quart_y": -16,
+			"max_quart_y": 48,
+			"continentalness_noise": {
+				"firstOctave": -9,
+				"amplitudes": [
+					1.0,
+					1.0,
+					2.0,
+					2.0,
+					2.0,
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				]
+			},
+			"erosion_noise": {
+				"firstOctave": -9,
+				"amplitudes": [
+					1.0,
+					1.0,
+					0.0,
+					1.0,
+					1.0
+				]
+			},
+			"temperature_noise": {
+				"firstOctave": -5,
+				"amplitudes": [
+					1,
+					1
+				]
+			},
+			"humidity_noise": {
+				"firstOctave": -5,
+				"amplitudes": [
+					1,
+					1
+				]
+			},
+			"weirdness_noise": {
+				"firstOctave": -5,
+				"amplitudes": [
+					1,
+					1
+				]
+			},
+			"biomes": [
+				{
+					"biome": "arkane:infernal_flats",
+					"parameters": {
+						"erosion": 0.0,
+						"depth":  0.0,
+						"weirdness": 0.0,
+						"offset": 0.5,
+						"temperature": 1.0,
+						"humidity": -1.0,
+						"continentalness": 0.0
+					}
+				},
+				{
+					"biome": "arkane:obsidian_forest",
+					"parameters": {
+						"erosion": [
+							-1.0,
+							1.0
+						],
+						"depth": [
+							-1.0,
+							1.0
+						],
+						"weirdness": [
+							-1.0,
+							1.0
+						],
+						"temperature": [
+							0.3,
+							1.0
+						],
+						"humidity": [
+							0.0,
+							0.25
+						],
+						"continentalness": [
+							-1.0,
+							1.0
+						],
+						"offset": 0.5
+					}
+				}
+			]
+		},
+		"settings": "arkane:elemental_chaos"
+	}
+}

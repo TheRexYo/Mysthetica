@@ -1,0 +1,33 @@
+{
+  "surface_builder": "arkane:crystal",
+  "depth": 0.125,
+  "scale": 0.01,
+  "temperature": 0.5,
+  "downfall": 0.01,
+  "precipitation": "none",
+  "category": "plains",
+  "player_spawn_friendly": false,
+  "effects": {
+    "sky_color": 16777215,
+    "fog_color": 10395294,
+    "water_color": 13421772,
+    "water_fog_color": 7368816,
+    "grass_color": 11190692,
+    "foliage_color": 8695428,
+    "particle": {
+      "options": {
+        "type": "minecraft:instant_effect"
+      },
+      "probability": 0.25
+    }
+  },
+  "starts": [],
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features": []
+}

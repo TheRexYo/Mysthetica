@@ -50,16 +50,6 @@
 				},
 				{
 					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:bedrock"
-				},
-				{
-					"type": "minecraft:item",
-					"weight": 5,
-					"name": "minecraft:end_portal_frame"
-				},
-				{
-					"type": "minecraft:item",
 					"weight": 100,
 					"name": "minecraft:end_rod"
 				}

@@ -1,0 +1,52 @@
+{
+	"bedrock_roof_position": 0,
+	"bedrock_floor_position": 0,
+	"sea_level": -128,
+	"min_surface_level": -256,
+	"disable_mob_generation": false,
+	"noise_caves_enabled": true,
+	"noodle_caves_enabled": true,
+	"aquifers_enabled": true,
+	"deepslate_enabled": true,
+	"ore_veins_enabled": true,
+	"default_block": {
+		"Name": "minecraft:stone"
+	},
+	"default_fluid": {
+		"Name": "minecraft:lava",
+		"Properties": {
+			"level": "0"
+		}
+	},
+	"noise": {
+		"min_y": -256,
+		"height": 512,
+		"density_factor": 0,
+		"density_offset": -0.0125,
+		"size_horizontal": 1,
+		"size_vertical": 1,
+		"simplex_surface_noise": true,
+		"random_density_offset": true,
+		"island_noise_override": false,
+		"amplified": false,
+		"sampling": {
+			"xz_scale": 1,
+			"y_scale": 1,
+			"xz_factor": 80,
+			"y_factor": 160
+		},
+		"bottom_slide": {
+			"target": 16,
+			"size": 8,
+			"offset": 32
+		},
+		"top_slide": {
+			"target": 1,
+			"size": 8,
+			"offset": 0
+		}
+	},
+	"structures": {
+		"structures": {}
+	}
+}

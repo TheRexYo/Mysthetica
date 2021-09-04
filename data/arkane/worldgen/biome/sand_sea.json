@@ -1,0 +1,59 @@
+{
+  "surface_builder": "arkane:sand_sea",
+  "depth": 0.125,
+  "scale": 0.01,
+  "temperature": 0.5,
+  "downfall": 0.01,
+  "precipitation": "none",
+  "category": "ocean",
+  "player_spawn_friendly": false,
+  "effects": {
+    "sky_color": 16774072,
+    "fog_color": 14932108,
+    "water_color": 7695939,
+    "water_fog_color": 9144411,
+    "grass_color": 10070873,
+    "foliage_color": 11655997,
+    "particle": {
+      "options": {
+        "type": "minecraft:falling_dust",
+		"Name": "minecraft:sand"
+      },
+      "probability": 0.25
+    }
+  },
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:husk",
+        "weight": 3,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:silverfish",
+        "weight": 5,
+        "minCount": 3,
+        "maxCount": 5
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:bat",
+        "weight": 1,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": []
+}

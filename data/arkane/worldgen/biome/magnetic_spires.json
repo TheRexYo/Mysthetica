@@ -1,0 +1,49 @@
+{
+  "surface_builder": "minecraft:stone",
+  "depth": 0.35,
+  "scale": 0.25,
+  "temperature": 0.8,
+  "downfall": 0.2,
+  "precipitation": "none",
+  "category": "savanna",
+  "player_spawn_friendly": false,
+  "creature_spawn_probability": 0.8,
+  "effects": {
+    "sky_color": 16514816,
+    "fog_color": 13087267,
+    "water_color": 13874501,
+    "water_fog_color": 9602111,
+    "grass_color": 7583519,
+    "foliage_color": 7055901,
+    "particle": {
+      "options": {},
+      "probability": 0.15
+    }
+  },
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:silverfish",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "misc": [
+      {
+        "type": "minecraft:bat",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave"
+    ]
+  },
+  "features": []
+}

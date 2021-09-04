@@ -6,6 +6,7 @@
 
 # Extension Functions
 function arkane:libraries/entities/items/handle
+
 # Spawn-Related
 execute as @e[tag=ResetSpawned] run execute as @s at @s run tag @s remove Spawned
 execute as @e[tag=ResetSpawned] run execute as @s at @s run tag @s remove ResetSpawned

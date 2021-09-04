@@ -1,0 +1,72 @@
+{
+  "surface_builder": "minecraft:ocean_sand",
+  "depth": 0.125,
+  "scale": 0.01,
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "rain",
+  "category": "forest",
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 0.3,
+  "effects": {
+    "sky_color": 8046335,
+    "fog_color": 3515815,
+    "water_color": 2651776,
+    "water_fog_color": 2272989,
+    "grass_color": 3971677,
+    "foliage_color": 6795582
+  },
+  "starts": [],
+  "spawners": {
+    "water_ambient": [
+      {
+        "type": "minecraft:tropical_fish",
+        "weight": 100,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:pufferfish",
+        "weight": 55,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:turtle",
+        "weight": 70,
+        "minCount": 1,
+        "maxCount": 3
+      },
+      {
+        "type": "minecraft:squid",
+        "weight": 100,
+        "minCount": 3,
+        "maxCount": 5
+      },
+      {
+        "type": "minecraft:dolphin",
+        "weight": 55,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "monster": [
+      {
+        "type": "minecraft:drowned",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [
+      "minecraft:warm_ocean_vegetation",
+      "arkane:coral_forest_vegetation"
+    ]
+  ]
+}

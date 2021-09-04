@@ -1,0 +1,14 @@
+{
+	"config": {
+		"top_material": {
+			"Name": "minecraft:magma_block"
+		},
+		"under_material": {
+			"Name": "minecraft:magma_block"
+		},
+		"underwater_material": {
+			"Name": "minecraft:magma_block"
+		}
+	},
+	"type": "minecraft:default"
+}

@@ -28,15 +28,15 @@ execute as @s at @s run execute as @s[tag=GetRandom] at @s run function rng2:get
 
 # Replacements (Vanilla)
 execute as @s at @s run execute as @s[tag=Replace_IronGolem] run execute as @s at @s run summon iron_golem ~ ~ ~ {Tags:["ResetSpawned"]}
-execute as @s at @s run execute as @s[tag=Replace_IronGolem] run execute as @s at @s run tp @s ~ -255 ~
+execute as @s at @s run execute as @s[tag=Replace_IronGolem] run execute as @s at @s run tp @s ~ -1000 ~
 execute as @s at @s run execute as @s[tag=Replace_IronGolem] run execute as @s at @s run kill @s
 
 execute as @s at @s run execute as @s[tag=Replace_Blaze] run execute as @s at @s run summon blaze ~ ~ ~ {Tags:["ResetSpawned"]}
-execute as @s at @s run execute as @s[tag=Replace_Blaze] run execute as @s at @s run tp @s ~ -255 ~
+execute as @s at @s run execute as @s[tag=Replace_Blaze] run execute as @s at @s run tp @s ~ -1000 ~
 execute as @s at @s run execute as @s[tag=Replace_Blaze] run execute as @s at @s run kill @s
 
 execute as @s at @s run execute as @s[tag=Replace_Lightning] run execute as @s at @s run summon lightning_bolt ~ ~ ~ {Tags:["ResetSpawned"]}
-execute as @s at @s run execute as @s[tag=Replace_Lightning] run execute as @s at @s run tp @s ~ -255 ~
+execute as @s at @s run execute as @s[tag=Replace_Lightning] run execute as @s at @s run tp @s ~ -1000 ~
 execute as @s at @s run execute as @s[tag=Replace_Lightning] run execute as @s at @s run kill @s
 
 # Replacements (Custom Mobs)

@@ -1,0 +1,82 @@
+{
+	"type": "arkane:realm_of_earth",
+	"generator": {
+		"type": "minecraft:noise",
+		"seed": 1000000,
+		"biome_source": {
+			"type": "minecraft:multi_noise",
+			"seed": 1000000,
+			"altitude_noise": {
+				"firstOctave": -10,
+				"amplitudes": [
+					1,
+					1
+				]
+			},
+			"temperature_noise": {
+				"firstOctave": -10,
+				"amplitudes": [
+					1,
+					1
+				]
+			},
+			"humidity_noise": {
+				"firstOctave": -10,
+				"amplitudes": [
+					1,
+					1
+				]
+			},
+			"weirdness_noise": {
+				"firstOctave": -10,
+				"amplitudes": [
+					1,
+					1
+				]
+			},
+			"biomes": [
+				{
+					"biome": "arkane:terran_flats",
+					"parameters": {
+						"altitude": 0,
+						"temperature": 0,
+						"humidity": 0,
+						"weirdness": 0,
+						"offset": 0.5
+					}
+				},
+				{
+					"biome": "arkane:magnetic_spires",
+					"parameters": {
+						"altitude": 0,
+						"temperature": 0,
+						"humidity": 0,
+						"weirdness": 1,
+						"offset": 0.5
+					}
+				},
+				{
+					"biome": "arkane:crystal_flats",
+					"parameters": {
+						"altitude": 0,
+						"temperature": 0,
+						"humidity": 0,
+						"weirdness": 0.2,
+						"offset": 0.5
+					}
+				},
+				{
+					"biome": "arkane:sand_sea",
+					"parameters": {
+						"altitude": -0.1,
+						"temperature": 0,
+						"humidity": 0.2,
+						"weirdness": 0,
+						"offset": 0.5
+					}
+				}
+			]
+		},
+		"settings": "arkane:realm_of_earth"
+	}
+}
