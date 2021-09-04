@@ -7,7 +7,7 @@
         "items": [
           "minecraft:written_book"
         ],
-        "nbt": "{spellData:{Spell:\"Lightning Bolt\"}}"
+        "nbt": "{spellData:{Spell:\"Fireball\"}}"
       }
     }
   }
