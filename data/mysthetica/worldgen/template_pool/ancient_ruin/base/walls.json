@@ -1,0 +1,51 @@
+{
+  "name": "mysthetica:ancient_ruin/base/walls",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mysthetica:ancient_ruin/walls/exterior_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 45,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mysthetica:ancient_ruin/walls/exterior_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mysthetica:ancient_ruin/walls/exterior_3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 25,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mysthetica:ancient_ruin/walls/exterior_corner",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mysthetica:ancient_ruin/walls/exterior_entrance",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

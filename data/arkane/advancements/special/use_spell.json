@@ -1,0 +1,24 @@
+{
+  "criteria": {
+    "use_spell": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:written_book",
+            "minecraft:book"
+          ],
+          "nbt": "{SpellBook:1b}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "use_spell"
+    ]
+  ],
+  "rewards": {
+    "function": "arkane:libraries/magic/cast_spell"
+  }
+}

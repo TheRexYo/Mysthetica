@@ -1,0 +1,42 @@
+{
+  "name": "mysthetica:ancient_ruin/base/courtyards",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mysthetica:ancient_ruin/courtyards/courtyard_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 45,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mysthetica:ancient_ruin/courtyards/courtyard_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 35,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mysthetica:ancient_ruin/courtyards/courtyard_3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mysthetica:ancient_ruin/courtyards/courtyard_special",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

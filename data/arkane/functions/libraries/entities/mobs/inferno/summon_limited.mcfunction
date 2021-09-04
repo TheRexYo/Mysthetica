@@ -1,0 +1,1 @@
+summon blaze ~ ~ ~ {Team:"Fire",Tags:["Inferno","SummonLimited"],Health:10,Fire:1277951,Attributes:[{Name:"generic.knockback_resistance",Base:1f},{Name:generic.max_health,Base:10},{Name:"generic.movement_speed",Base:0.5f}],ActiveEffects:[{Id:14,Amplifier:0,Duration:2147483647,ShowParticles:0b}],CustomName:"{\"text\":\"Inferno\"}"}

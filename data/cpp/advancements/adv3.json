@@ -1,0 +1,313 @@
+{
+    "display": {
+        "title": {
+            "text": "All the Mobs",
+            "color": "dark_green"
+        },
+        "description": {
+            "text": "Kill all the mobs added by Creatures+",
+            "color": "light_green"
+        },
+        "icon": {
+            "item": "minecraft:skeleton_skull"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cave_golem": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"cave_golem\"]}"
+                }
+            }
+        },
+		"cave_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"cave_skeleton\"]}"
+                }
+            }
+        },
+		"blight": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"blight\"]}"
+                }
+            }
+        },
+		"cave_warrior": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"cave_warrior\"]}"
+                }
+            }
+        },
+		"cave_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"cave_zombie\"]}"
+                }
+            }
+        },
+		"desert_creeper": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"desert_creeper\"]}"
+                }
+            }
+        },
+		"desert_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"desert_skeleton\"]}"
+                }
+            }
+        },
+		"druid": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"druid\"]}"
+                }
+            }
+        },
+		"ent": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ent\"]}"
+                }
+            }
+        },
+		"ice_creeper": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ice_creeper\"]}"
+                }
+            }
+        },
+		"ice_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"ice_zombie\"]}"
+                }
+            }
+        },
+		"jungle_creeper": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"jungle_creeper\"]}"
+                }
+            }
+        },
+		"kill_jskeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"jungle_skeleton\"]}"
+                }
+            }
+        },
+		"jungle_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"jungle_zombie\"]}"
+                }
+            }
+        },
+		"mummy": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"mummy\"]}"
+                }
+            }
+        },
+		"plains_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"plains_skeleton\"]}"
+                }
+            }
+        },
+		"plains_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"plains_zombie\"]}"
+                }
+            }
+        },
+		"sand_mite": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"sand_mite\"]}"
+                }
+            }
+        },
+		"shadow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"shadow\"]}"
+                }
+            }
+        },
+		"soul": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"soul\"]}"
+                }
+            }
+        },
+		"stooge": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"stooge\"]}"
+                }
+            }
+        },
+		"swamp_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"swamp_skeleton\"]}"
+                }
+            }
+        },
+		"swamp_zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"swamp_zombie\"]}"
+                }
+            }
+        },
+		"warlock": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"warlock\"]}"
+                }
+            }
+        },
+		"illusioner": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"illusioner\"]}"
+                }
+            }
+        },
+		"killer_bunny": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"killer_bunny\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "kill_jskeleton"
+        ],
+		[
+            "blight"
+        ],
+        [
+            "cave_golem"
+        ],
+        [
+            "cave_skeleton"
+        ],
+        [
+            "cave_warrior"
+        ],
+        [
+            "cave_zombie"
+        ],
+        [
+            "desert_creeper"
+        ],
+        [
+            "desert_skeleton"
+        ],
+        [
+            "druid"
+        ],
+        [
+            "ent"
+        ],
+        [
+            "ice_creeper"
+        ],
+        [
+            "ice_zombie"
+        ],
+        [
+            "jungle_creeper"
+        ],
+        [
+            "jungle_zombie"
+        ],
+        [
+            "mummy"
+        ],
+        [
+            "plains_skeleton"
+        ],
+        [
+            "plains_zombie"
+        ],
+        [
+            "sand_mite"
+        ],
+        [
+            "shadow"
+        ],
+        [
+            "soul"
+        ],
+        [
+            "stooge"
+        ],
+        [
+            "swamp_skeleton"
+        ],
+        [
+            "swamp_zombie"
+        ],
+        [
+            "warlock"
+        ],
+        [
+            "illusioner"
+        ],
+        [
+            "killer_bunny"
+        ]
+    ],
+    "rewards": {
+        "experience": 60
+    },
+    "parent": "cpp:adv2"
+}

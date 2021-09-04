@@ -1,0 +1,15 @@
+{
+  "name": "mysthetica:ancient_ruin/base/terminators/all",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 100,
+      "element": {
+        "location": "mysthetica:ancient_ruin/base/terminators/all/empty",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

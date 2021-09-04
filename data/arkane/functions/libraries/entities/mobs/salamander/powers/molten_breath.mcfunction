@@ -1,0 +1,15 @@
+execute as @s at @s run execute positioned ^ ^ ^1 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^ ^ ^2 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^ ^ ^3 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^ ^1 ^2 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^ ^-1 ^2 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^ ^1 ^3 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^ ^-1 ^3 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^ ^2 ^3 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^ ^-2 ^3 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^1 ^ ^2 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^-1 ^ ^2 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^-1 ^ ^3 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^1 ^ ^3 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^-2 ^ ^3 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire
+execute as @s at @s run execute positioned ^2 ^ ^3 run function arkane:libraries/entities/mobs/salamander/powers/effects/createfire

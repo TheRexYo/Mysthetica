@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_powder",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Living Fire\"}',Lore:['{\"text\":\"It\\'s seething with energy...\",\"color\":\"gray\",\"italic\":true}']},LivingFire:1b}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+			"type": "minecraft:uniform",
+                "min": 4,
+                "max": 16
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

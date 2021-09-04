@@ -1,0 +1,1 @@
+summon wither_skeleton ~ ~ ~ {Team:"Fire",Health:1f,Tags:["AshWalker"],CustomName:'{"text":"Ash Walker"}',HandItems:[{id:"minecraft:stone_hoe",Count:1b,tag:{display:{Name:'{"text":"Ashreaver"}'},HideFlags:1,Unbreakable:1b,Scythe:1b,AshReaver:1b,Enchantments:[{id:"minecraft:fire_aspect",lvl:2s}]}},{}],HandDropChances:[0.050F,0.085F],Attributes:[{Name:generic.max_health,Base:1}]}

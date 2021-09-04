@@ -1,0 +1,1 @@
+execute as @s at @s run effect give @e[distance=..3,type=player] minecraft:unluck 300 0 false

@@ -1,0 +1,10 @@
+{
+	"replace":"false",
+	"values":[
+		"arkane:load",
+		"mysthetica:load",
+		"cpp:setup",
+		"bgsf:setup",
+		"rng2:initiate"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"replace":"false",
+	"values":[
+		"arkane:main",
+		"mysthetica:main",
+		"cpp:main",
+		"floorcraft:loop"
+	]
+}

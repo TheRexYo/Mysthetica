@@ -1,0 +1,1 @@
+give @p blaze_rod{display:{Name:'{"text":"Unstable Fire"}',Lore:['{"text":"If let free, this object could create a rift into the elemental planes.","color":"gray","italic":true}']},UnstableFire:1b,Unstable:1b} 1

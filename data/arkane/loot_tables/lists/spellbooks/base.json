@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "quality": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:[\"{\\\"text\\\":\\\"Lightning Bolt\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"color\\\":\\\"yellow\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/tag @s[scores={Mana=25..}] add Cast_LightningBolt\\\"}}\"],title:\"Lightning Bolt\",author:\"Thundermaster Baanon\",generation:3,display:{Lore:[\"Summons a bolt of lightning to strike foes from above.\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "quality": 2,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:[\"{\\\"text\\\":\\\"Ion Volt\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"color\\\":\\\"yellow\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/tag @s[scores={Mana=50..}] add Cast_IonVolt\\\"}}\"],title:\"Ion Volt\",author:\"Thundermaster Baanon\",generation:3,display:{Lore:[\"Summons a potent current of static electricity, slowing nearby foes and making them vulnerable to further hits from this spell.\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "quality": 3,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:[\"{\\\"text\\\":\\\"Teravolt\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"color\\\":\\\"yellow\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/tag @s[scores={Mana=75..}] add Cast_Teravolt\\\"}}\"],title:\"Teravolt\",author:\"Thundermaster Baanon\",generation:3,display:{Lore:[\"Generates a massive electric charge and releases it into the area around you, dealing massive damage that is further increased when hitting Ion-Stunned targets.\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "quality": 2,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:[\"{\\\"text\\\":\\\"Quake Spasm\\\",\\\"bold\\\":false,\\\"italic\\\":true,\\\"color\\\":\\\"dark_red\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/tag @s[scores={Mana=50..}] add Cast_QuakeSpasm\\\"}}\"],title:\"Quake Spasm\",author:\"Earthmaster Jabhar\",generation:3,display:{Lore:[\"Causes the ground around the caster to spike and shift, dealing immense damage to nearby foes and slowing them down.\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 4,
+          "quality": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:[\"{\\\"text\\\":\\\"Earthbind\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"color\\\":\\\"dark_red\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/tag @s[scores={Mana=25..}] add Cast_Earthbind\\\"}}\"],title:\"Earthbind\",author:\"Earthmaster Jabhar\",generation:3,display:{Lore:[\"The caster animates the ground around them, causing tendrils of earth to grab nearby foes, greatly slowing them and preventing them from jumping.\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "quality": 3,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:[\"{\\\"text\\\":\\\"Summon Earth Elemental\\\",\\\"bold\\\":true,\\\"italic\\\":true,\\\"color\\\":\\\"dark_red\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/tag @s[scores={Mana=75..}] add Cast_SummonEarthElemental\\\"}}\"],title:\"Summon Earth Elemental\",author:\"Earthmaster Jabhar\",generation:3,display:{Lore:[\"Summons an earth elemental to your space, dealing immense damage to nearby foes and slowing them down.\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

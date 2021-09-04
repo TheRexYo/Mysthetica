@@ -1,0 +1,79 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:blaze_powder",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Living Fire\"}',Lore:['{\"text\":\"It\\'s seething with energy...\",\"color\":\"gray\",\"italic\":true}']},LivingFire:1b}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+			"type":"minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:magma_block"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "smokey": false
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:blaze_powder",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Living Fire\"}',Lore:['{\"text\":\"It\\'s seething with energy...\",\"color\":\"gray\",\"italic\":true}']},LivingFire:1b}"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+			"type":"minecraft:uniform",
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:magma_block"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "smokey": true
+          }
+        }
+      ]
+    }
+  ]
+}

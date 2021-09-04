@@ -1,0 +1,15 @@
+{
+  "name": "mysthetica:ancient_ruin/base/starts",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 50,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "mysthetica:ancient_ruin/starts/base",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

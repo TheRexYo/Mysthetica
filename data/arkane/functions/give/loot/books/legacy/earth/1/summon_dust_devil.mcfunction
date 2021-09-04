@@ -1,0 +1,1 @@
+give @s written_book{pages:["{\"text\":\"Summon Dust Devil\",\"bold\":true,\"italic\":true,\"color\":\"dark_red\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @s[scores={Mana=25..}] add Cast_SummonDustDevil\"}}"],title:"Summon Dust Devil",author:"Earthmaster Jabhar",generation:3,display:{Lore:["Summons a Dust Devil that attacks and blinds nearby foes."]}}

@@ -1,0 +1,1 @@
+summon blaze ~ ~ ~ {Silent:1b,Team:"Fire",Tags:["Salamander","SummonLimited"],Health:10,Fire:1277951,DeathLootTable:"arkane:entities/salamander/death",Attributes:[{Name:generic.max_health,Base:10},{Name:"generic.movement_speed",Base:0.2f}],ActiveEffects:[{Id:14,Amplifier:0,Duration:2147483647,ShowParticles:0b}],CustomName:"{\"text\":\"Salamander\"}"}

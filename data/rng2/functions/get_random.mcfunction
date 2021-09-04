@@ -1,0 +1,1 @@
+execute as @s at @s run function rng2:number

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "quality": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Light\",\"color\":\"white\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 0\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Creates a source of light in the location of the caster\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Light\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Light\",author:\"Lightmaster Caelum\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"The man revealed his magic, creating a small light for us so we could see in those cavernous depths. Thanks to him, we were able to make camp that night.\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Lyt!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Light!)\"}]']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 85,
+          "quality": 2,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Bubble Spray\",\"color\":\"aqua\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 0\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Creates a spray of bubbles that slow foes down.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Bubble Spray\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Bubble Spray\",author:\"Watermaster Sey\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"When the man finished his spell, a stream of bubbles streamed forth from his palm, and when it finally stopped, he was gone.\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Com, bahls ouf aquae!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Come, balls of water!)\"}]']}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

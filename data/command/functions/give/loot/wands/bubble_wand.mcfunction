@@ -1,0 +1,1 @@
+give @s minecraft:stick{display:{Name:'{"text":"Bubble Wand","color":"aqua","bold":true,"italic":true}',Lore:['{"text":"Creates a stream of bubbles.","color":"green","italic":true}']},BubbleWand:1} 1

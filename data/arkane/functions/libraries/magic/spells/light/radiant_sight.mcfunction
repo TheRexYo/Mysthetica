@@ -1,0 +1,1 @@
+execute as @s at @s run effect give @s minecraft:night_vision 10 0 true

@@ -1,0 +1,1 @@
+execute as @s at @s run summon item ~ ~ ~ {Item:{id:"minecraft:potion",Count:1b,tag:{Potion:"minecraft:luck"}}}

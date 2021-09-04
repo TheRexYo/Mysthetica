@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:bastion_remnant",
+  "config": {
+    "start_pool": "mysthetica:ancient_ruin/base/starts",
+    "size": 7
+  }
+}

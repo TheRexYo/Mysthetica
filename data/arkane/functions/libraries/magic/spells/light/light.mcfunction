@@ -1,0 +1,1 @@
+execute as @s at @s run fill ~ ~ ~ ~ ~ ~ minecraft:light replace air

@@ -1,0 +1,42 @@
+{
+  "name": "arkane:magi_village/base/streets",
+  "fallback": "minecraft:village/plains/terminators",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "arkane:magi_village/base/streets/corner_01",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "location": "arkane:magi_village/base/streets/straight_01",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "arkane:magi_village/base/streets/crossroad_01",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "location": "arkane:magi_village/base/streets/turn_01",
+        "processors": "minecraft:empty",
+        "projection": "terrain_matching",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

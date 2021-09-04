@@ -1,0 +1,1 @@
+give @s blaze_powder{display:{Name:'{"text":"Living Fire"}',Lore:['{"text":"It\'s seething with energy...","color":"gray","italic":true}']},LivingFire:1b} 1

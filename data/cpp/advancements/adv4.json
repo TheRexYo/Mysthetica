@@ -1,0 +1,26 @@
+{
+    "display": {
+        "title": {
+            "text": "The curse of the Undead",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "Be posesed by a soul shard",
+            "color": "light_purple"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:10140001}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "pst": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "cpp:adv2"
+}

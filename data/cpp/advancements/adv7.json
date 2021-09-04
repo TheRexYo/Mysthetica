@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "Cute can be Deadly",
+            "color": "red"
+        },
+        "description": {
+            "text": "Be Killed by a Killer Rabbit",
+            "color": "dark_red"
+        },
+        "icon": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "what": {
+            "trigger": "minecraft:entity_killed_player",
+            "conditions": {
+                "entity": {
+                    "nbt": "{RabbitType:99}"
+                }
+            }
+        }
+    },
+    "parent": "cpp:adv2"
+}

@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "weight": 50,
+              "quality": 2,
+              "name": "arkane:lists/spellbooks/rituals/tier_1"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 100,
+              "quality": 1,
+              "name": "arkane:lists/spellbooks/rituals/tier_0"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "weight": 5,
+              "quality": 5,
+              "name": "arkane:lists/spellbooks/spells/tier_4"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 10,
+              "quality": 4,
+              "name": "arkane:lists/spellbooks/spells/tier_3"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 25,
+              "quality": 3,
+              "name": "arkane:lists/spellbooks/spells/tier_2"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 50,
+              "quality": 2,
+              "name": "arkane:lists/spellbooks/spells/tier_1"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "weight": 100,
+              "quality": 1,
+              "name": "arkane:lists/spellbooks/spells/tier_0"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "quality": 0,
+          "name": "arkane:lists/spellbooks/base"
+        }
+      ]
+    }
+  ]
+}

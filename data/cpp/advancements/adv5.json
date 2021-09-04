@@ -1,0 +1,25 @@
+{
+    "display": {
+        "title": {
+            "text": "A new kind of \"Hrnn\""
+        },
+        "description": {
+            "text": "Discover a Warlock",
+            "color": "dark_purple"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:10140005}"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "hrnn": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "parent": "cpp:adv2"
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:village",
+  "config": {
+    "start_pool": "arkane:magi_village/base/town_centers",
+    "size": 7
+  }
+}

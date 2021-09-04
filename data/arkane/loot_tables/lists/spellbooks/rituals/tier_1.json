@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 95,
+          "quality": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:[\"{\\\"text\\\":\\\"Conjure Carrot\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"color\\\":\\\"gray\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/tag @s[scores={Mana=5..}] add Cast_ConjureCarrot\\\"}}\"],title:\"Conjure Carrot\",author:\"Grandmaster Arkane\",generation:3,display:{Lore:[\"Conjures a carrot.\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "quality": 5,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{pages:[\"{\\\"text\\\":\\\"Summon Snow Golem\\\",\\\"bold\\\":false,\\\"italic\\\":false,\\\"color\\\":\\\"white\\\",\\\"clickEvent\\\":{\\\"action\\\":\\\"run_command\\\",\\\"value\\\":\\\"/tag @s[scores={Mana=25..}] add Cast_SummonSnowGolem\\\"}}\"],title:\"Summon Snow Golem\",author:\"Frostmaster Jack\",generation:3,display:{Lore:[\"Summons a Snow Golem.\"]}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

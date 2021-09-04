@@ -1,0 +1,96 @@
+Possest mobs?
+better passive mob spawning?
+new passive mobs?
+
+Desert:
+
+- Scorched Creeper
+- Aired Bowman	(desert archer)
+- Mummy
+- Husk
+- Dune Acarid	(sand mite)
+
+Forest:
+
+- Forest Guardian (Ent)
+- Bosk (thicket of bushes/small wood)
+- 
+- 
+- 
+
+Jungle:
+
+- Overgrown Skeleton
+- Creeper
+- Overgrown Zombie
+- 
+- 
+
+Taiga:
+
+- Enderman
+- Spider
+- Witch
+- Druid
+- 
+
+Snowy Taiga:
+
+- Stray
+- Frozen Zombie
+- Druid
+- Witch
+- Killer bunny
+- Enderman
+
+Tundra:
+
+- Illusioner
+- Stray
+- Frozen Zombie
+- Frozen Creeper
+- 
+
+Cave:
+
+- Cavern Wanderer
+- 
+- 
+- 
+- 
+
+Deap Cave:
+
+- Shadow
+- Cavern Wanderer
+- 
+- 
+- 
+
+Savanna:
+
+- Husk
+- Miskull (three headed skeleton)
+- Warlock (Evil villager tibleamn)
+- 
+- 
+
+Plains:
+
+- Surficed
+- Undead Rider
+- 
+- 
+- 
+
+Swamp:
+
+- Slime
+- Hidden
+- Decaying Zombie
+- Deadlock
+- Infected Creeper (poisoned creeper)
+
+Gravel Mountains:
+
+Ocean:

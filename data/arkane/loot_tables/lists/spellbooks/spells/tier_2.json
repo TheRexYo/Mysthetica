@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 95,
+          "quality": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Summon Earth Elemental\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 3\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Calls forth a standard Earth Elemental from the elemental planes; its impact will also damage nearby foes.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Summon Earth Elemental\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Summon Earth Elemental\",author:\"Earthmaster Jabhar\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"A rift opened, and in an instant a monster of earth came smashing into the ground, knocking my foes flying. The spell appears to have worked.\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Azit byest ouf erre, hyd myn cahl!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Great beast of earth, heed my call!)\"}]']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 85,
+          "quality": 2,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Ion Volt\",\"color\":\"yellow\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 2\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Charges nearby foes with Ionized electricity, slowing them greatly.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Ion Volt\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Ion Volt\",author:\"Thundermaster Baanon\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"The energy, left unchecked, is capable of rendering the hardiest beasts hopelessly immobile.\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Teht myn ene thi ekele powre!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Tether my foes with electric power!)\"}]']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 75,
+          "quality": 3,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Inferno\",\"color\":\"red\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 2\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Summons a group of Inferno(s) - searing flames given life via elemental fire - to the area around the caster.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Inferno\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Inferno\",author:\"Firemaster Ignis\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"Burn! BURN! EVERYTHING, BURN!\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Azit spyrs ouf fyr, bryng lyf tu tiz blazz!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Great spirits of fire, bring life to this blaze!)\"}]']}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

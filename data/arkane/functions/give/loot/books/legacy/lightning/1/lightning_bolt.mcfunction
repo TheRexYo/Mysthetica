@@ -1,0 +1,1 @@
+give @s written_book{pages:["{\"text\":\"Lightning Bolt\",\"bold\":false,\"italic\":false,\"color\":\"yellow\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/tag @s[scores={Mana=25..}] add Cast_LightningBolt\"}}"],title:"Lightning Bolt",author:"Thundermaster Baanon",generation:3,display:{Lore:["Summons a bolt of lightning to strike foes from above."]}}

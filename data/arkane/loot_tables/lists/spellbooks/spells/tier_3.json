@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 75,
+          "quality": 3,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Teravolt\",\"color\":\"yellow\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 3\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Sends raw electric power to devastate nearby foes, particularly those who are Ionized.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Teravolt\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Teravolt\",author:\"Thundermaster Baanon\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"The dragon, now charged from the previous spell, was torn asunder by a blast of raw electricity. Thus, Baanon earned his name - Thundermaster.\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Azit spyrs ouf ekele, lynd my thyn powre!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Great spirits of electricity, lend me your power!)\"}]']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 95,
+          "quality": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Firebomb\",\"color\":\"red\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 3\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Conjures a great burst of fireballs to create a massive explosion around the caster.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Firebomb\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Firebomb\",author:\"Firemaster Ignis\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"I care not who the fire burns, as long as it burns them!\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Byrn!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Burn!)\"}]']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 85,
+          "quality": 2,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Summon Earth Elemental\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 3\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Calls forth a standard Earth Elemental from the elemental planes; its impact will also damage nearby foes.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Summon Earth Elemental\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Summon Earth Elemental\",author:\"Earthmaster Jabhar\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"A rift opened, and in an instant a monster of earth came smashing into the ground, knocking my foes flying. The spell appears to have worked.\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Azit byest ouf erre, hyd myn cahl!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Great beast of earth, heed my call!)\"}]']}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

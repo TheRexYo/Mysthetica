@@ -1,0 +1,31 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item",
+        "nbt": "{Item:{id:\"minecraft:blaze_powder\",Count:1b,tag:{LivingFire:1b}}}",
+        "location": {
+          "dimension": "minecraft:overworld",
+          "smokey": true
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:item",
+        "nbt": "{Item:{id:\"minecraft:blaze_powder\",Count:1b,tag:{LivingFire:1b}}}",
+        "stepping_on": {
+          "dimension": "minecraft:overworld",
+          "block": {
+            "block": "minecraft:fire"
+          }
+        }
+      }
+    }
+  ]
+}

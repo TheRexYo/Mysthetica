@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+	"minecraft:air",
+	"minecraft:water",
+	"#bgsf:plants",
+	"#bgsf:redstone",
+	"#minecraft:wooden_pressure_plates",
+	"#minecraft:buttons",
+	"#minecraft:banners",
+	"#minecraft:carpets",
+	"#minecraft:rails",
+	"minecraft:stone_pressure_plate",
+	"minecraft:torch",
+	"#minecraft:signs",
+	"minecraft:flower_pot",
+	"minecraft:ladder"
+  ]
+}

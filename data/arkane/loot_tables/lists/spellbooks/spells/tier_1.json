@@ -1,0 +1,70 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 95,
+          "quality": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Fireball\",\"color\":\"red\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 1\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Conjures a fireball for the caster to use as they please.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Fireball\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Fireball\",author:\"Firemaster Ignis\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"Let it be known that the fire shall scorch the land, and the world born anew.\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Bahl ouf fyr, Iy suhmn ty!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Ball of fire, I summon you!)\"}]']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 95,
+          "quality": 1,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Earthbind\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 1\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Tendrils of earth trap nearby foes, slowing them and preventing them from jumping.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Earthbind\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Earthbind\",author:\"Earthmaster Jabhar\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"Tendrils of earth snatched the beast from the sky, dragging it down so that the ground forces could fight it on even footing.\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Tyndrels ouf erre, gryp myn ene!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Tendrils of earth, grasp my enemies!)\"}]']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "quality": 0,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Radiant Sight\",\"color\":\"white\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 1\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"The eyes of the caster glow with light, allowing them to see in the dark for a short time.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Radiant Sight\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Radiant Sight\",author:\"Lightmaster Caelum\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"From this light, all lies shall be cast aside, and the truth revealed.\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Noh, Iy seeh!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Now, I see!)\"}]']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 85,
+          "quality": 2,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Lightning Bolt\",\"color\":\"yellow\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 1\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Calls forth a lightning bolt to damage foes.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Lightning Bolt\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Lightning Bolt\",author:\"Thundermaster Baanon\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"Let it be known that the lightning shall purge our enemies from this planet; be it spider, zombie, or creeper, nothing shall stand in our way.\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Azit ekele balt, stryke myn ene!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Great electric bolt, strike my enemies!)\"}]']}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 75,
+          "quality": 3,
+          "name": "minecraft:written_book",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"Summon Dust Devil\",\"color\":\"dark_red\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Tier 1\",\"color\":\"light_purple\",\"bold\":true}','{\"text\":\"Summons a Dust Devil; a pestering, imp-like elemental that can travel through blocks and blind its foes with dust.\",\"color\":\"dark_purple\",\"italic\":true}']},HideFlags:1,SpellBook:1b,Uses:-1,spellData:{Spell:\"Summon Dust Devil\",Ritual:0b,MaxUses:-1,LimitedUse:0b},Enchantments:[{}],title:\"Summon Dust Devil\",author:\"Earthmaster Jabhar\",generation:3,resolved:1b,pages:['{\"text\":\"Cast!\",\"color\":\"gold\",\"bold\":true,\"italic\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/trigger cast_spell set 1\"}}','{\"text\":\"\\\\\"Tendrils of earth snatched the beast from the sky, dragging it down so that the ground forces could fight it on even footing.\\\\\"\",\"color\":\"gold\",\"italic\":true}','[{\"text\":\"\\\\\"Tyndrels ouf erre, gryp myn ene!\\\\\"\",\"color\":\"gold\",\"bold\":true,\"italic\":true},{\"text\":\"\\\\n\\\\n(Tendrils of earth, grasp my enemies!)\"}]']}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

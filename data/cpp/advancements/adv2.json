@@ -1,0 +1,45 @@
+{
+    "display": {
+        "title": {
+            "text": "New Enemies",
+            "color": "dark_green"
+        },
+        "description": {
+            "text": "Encounter a new mob"
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "meetbob": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "source_entity": {
+                        "nbt": "{Tags:[\"cpp_mob\"]}"
+                    }
+                }
+            }
+        },
+        "hurtbob": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"cpp_mob\"]}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "meetbob",
+            "hurtbob"
+        ]
+    ],
+    "parent": "cpp:root"
+}

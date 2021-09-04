@@ -1,0 +1,1 @@
+execute as @s at @s run tag @s remove IonStunned

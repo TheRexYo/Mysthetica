@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "An Ancient Evil"
+        },
+        "description": {
+            "text": "Kill a Druid"
+        },
+        "icon": {
+            "item": "minecraft:structure_void",
+            "nbt": "{CustomModelData:10140076}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "druid": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"druid\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 40
+    },
+    "parent": "cpp:adv5"
+}

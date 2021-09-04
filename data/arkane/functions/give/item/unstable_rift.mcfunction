@@ -1,0 +1,1 @@
+give @s magma_block{display:{Name:'{"text":"Unstable Rift","color":"gold","bold":true,"italic":true}',Lore:['{"text":"Teleports the user to the specified dimension when held, then is destroyed.","color":"gray"}']},UnstableRift:1b,dimension:"minecraft:empty"} 1
