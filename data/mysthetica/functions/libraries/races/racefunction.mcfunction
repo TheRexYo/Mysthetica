@@ -6,3 +6,4 @@ execute as @a[tag=Race_WoodElf] run execute as @s at @s run function mysthetica:
 execute as @a[tag=Race_Dwarf] run execute as @s at @s run function mysthetica:libraries/races/dwarf/main
 execute as @a[tag=Race_Dragonborn] run execute as @s at @s run function mysthetica:libraries/races/dragonborn/main
 execute as @a[tag=Race_WaterSpirit] run execute as @s at @s run function mysthetica:libraries/races/water_spirit/main
+execute as @a[tag=Race_Froglin] run execture as @s at @as run function mysthetica:libraries/races/froglin/main
