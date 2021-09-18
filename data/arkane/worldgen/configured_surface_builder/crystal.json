@@ -1,23 +1,18 @@
 {
+	"type": "minecraft:default",
 	"config": {
-		"top_material": {
-			"Name": "minecraft:white_stained_glass",
-			"Properties": {
-				"impermeable": "true"
-			}
-		},
-		"under_material": {
-			"Name": "minecraft:white_stained_glass",
-			"Properties": {
-				"impermeable": "true"
-			}
-		},
-		"underwater_material": {
-			"Name": "minecraft:glass",
-			"Properties": {
-				"impermeable": "true"
-			}
-		}
-	},
-	"type": "minecraft:default"
-}
+	  "top_material": {
+		"Name": "minecraft:white_stained_glass",
+		"Properties": {}
+	  },
+	  "under_material": {
+		"Name": "minecraft:white_stained_glass",
+		"Properties": {}
+	  },
+	  "underwater_material": {
+		"Name": "minecraft:glass",
+		"Properties": {}
+	  }
+	}
+  }
+  

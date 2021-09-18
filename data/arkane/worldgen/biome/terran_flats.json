@@ -76,6 +76,9 @@
       "minecraft:ore_clay",
       "minecraft:ore_blackstone",
       "minecraft:ore_andesite"
+    ],
+    [
+      "arkane:earth_deepslate_replacement"
     ]
   ]
 }

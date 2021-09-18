@@ -29,5 +29,9 @@
       "minecraft:cave"
     ]
   },
-  "features": []
+  "features": [
+    [
+      "arkane:crystals/white_hybrid"
+    ]
+  ]
 }
